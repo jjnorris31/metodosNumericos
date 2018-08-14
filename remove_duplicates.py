@@ -8,7 +8,5 @@ Examples
 ['The', 'big', 'cat'] ➞ ['The', 'big', 'cat']
 """
 
-from collections import OrderedDict
-
 def removeDups(lst):
-	return list(OrderedDict.fromkeys(lst))
+	return list(dict.fromkeys(lst))
